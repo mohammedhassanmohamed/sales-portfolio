@@ -1,0 +1,153 @@
+/* .all-padge {
+  position: relative;
+  width: 100%;
+  height: 22vh;
+  color: white;
+} */
+
+.all-svg {
+  display: flex;
+  justify-content: space-between;
+  top: 170px;
+  position: absolute;
+}
+#rashdeen{
+  width: 20%;
+  height: 20%;
+  
+  }
+  
+
+/* #svg circle {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 1s linear;
+  stroke: #0c21e6;
+  stroke-width: .7em;
+margin-left: -50px;
+} */
+
+/* 
+#cont {
+  text-align: center;
+  display: block;
+
+  width: 50%;
+  margin: 10em auto;
+  box-shadow: 0 0 1em black;
+  border-radius: 100%;
+  position: relative;
+} */
+
+
+
+/* 
+
+#cont:after {
+
+  position: absolute;
+  display: block;
+  height: 100px;
+  width: 100px;
+  left: 50%;
+  top: 50%;
+  box-shadow: inset 0 0 1em black;
+  content: attr(data-pct)"html";
+  margin-top: -80px;
+  margin-left: -80px;
+  border-radius: 100%;
+  line-height: 160px;
+  font-size: 2em;
+  text-shadow: 0 0 0.5em black;
+} */
+
+
+/* #cont1:after {
+  position: absolute;
+  display: block;
+  height: 160px;
+  width: 160px;
+  left: 50%;
+  top: 50%;
+  box-shadow: inset 0 0 1em black;
+  content: attr(data-pct)"css";
+  margin-top: -80px;
+  margin-left: -80px;
+  border-radius: 100%;
+  line-height: 160px;
+  font-size: 2em;
+  text-shadow: 0 0 0.5em black;
+}
+
+
+#cont2:after {
+  position: absolute;
+  display: block;
+  height: 160px;
+  width: 160px;
+  left: 50%;
+  top: 50%;
+  box-shadow: inset 0 0 1em black;
+  content: attr(data-pct)"strab";
+  margin-top: -80px;
+  margin-left: -80px;
+  border-radius: 100%;
+  line-height: 160px;
+  font-size: 2em;
+  text-shadow: 0 0 0.5em black;
+}
+
+
+#cont3:after {
+  position: absolute;
+  display: block;
+  height: 160px;
+  width: 160px;
+  left: 50%;
+  top: 50%;
+  box-shadow: inset 0 0 1em black;
+  content: attr(data-pct)"js";
+  margin-top: -80px;
+  margin-left: -80px;
+  border-radius: 100%;
+  line-height: 160px;
+  font-size: 2em;
+  text-shadow: 0 0 0.5em black;
+}
+
+
+#cont4:after {
+  position: absolute;
+  display: block;
+  height: 160px;
+  width: 160px;
+  left: 50%;
+  top: 50%;
+  box-shadow: inset 0 0 1em black;
+  content: attr(data-pct)"react";
+  margin-top: -80px;
+  margin-left: -80px;
+  border-radius: 100%;
+  line-height: 160px;
+  font-size: 2em;
+  text-shadow: 0 0 0.5em black;
+}
+ */
+
+
+
+@media (max-width:1010px) {
+  .all-svg {
+    display: none;
+
+  }
+
+  .all-padge {
+    position: relative;
+    width: 100%;
+    height: 42vh;
+    color: white;
+  }
+
+
+
+}

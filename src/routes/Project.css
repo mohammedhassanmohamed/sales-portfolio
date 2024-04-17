@@ -1,0 +1,83 @@
+/* .testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  
+  .testimonial-card .avatar {
+    width: 110px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  } */
+
+
+
+/* .projectfoto{
+    width: 300px;
+    height: 30vh;
+    margin-top: 120px;
+} */
+/* #image-project{
+   
+
+position: relative;
+top: -120px;    
+float: right;
+left: -350px;
+} */
+/* #rashdeen{
+width: 30%;
+height: 20%;
+
+} */
+#topphoto{
+    height: 70vh;
+    width: 30%;
+    margin: auto;
+}
+/* #mainimg {
+    position: absolute;
+    width: 100%;
+    height: 160vh;
+    background-size: cover;
+    background-position: cover;
+    object-fit: cover;
+} */
+
+.image-bg {
+  
+    position: relative;
+}
+
+.empty-background {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 160vh;
+
+}
+
+ @media (max-width:500px) {
+    .projectfoto{
+        width: 200px;
+        height: 23vh;
+        margin-left: 10px;
+        margin-top: -70px;
+    }
+
+
+ }
+
+ @media (min-width:500px) and (max-width:1200px) {
+    .projectfoto{
+        width: 200px;
+        height: 23vh;
+        margin-left: 0px;
+        margin-top: -60px;
+    }
+
+
+ }
