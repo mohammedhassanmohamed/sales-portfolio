@@ -22,12 +22,6 @@ img {
 
 }
 
-/* .para,
-.myh1 {
-    color: rgba(255, 255, 255, 0.801);
-    font-weight: 200px;
-    width: 100%;
-} */
 
 .p-h1-twobtn {
     width: 70%;
@@ -89,7 +83,6 @@ img {
     .two-button {
         padding: 10px 20px;
       
-        /* margin-left: -40px; */
     }
     
     img {

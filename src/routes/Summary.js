@@ -19,7 +19,12 @@ import "./Summary.css";
 <div className="all-text">
           <h1 className="myh1">summary</h1>
         
-          <p className="para"> I am self-motivated, quick learner with high integrity and creative, I have experience in managing relationship with my clients by developing trust and proposing solutions that meet their objectives. I have over than seven years’ experience in diverse sales environments including retail, advertising, marketing plans and telecommunications. I am also a team player who demonstrated ability to lead and motivate teams into achieving common goals. </p>
+          <p className="para"> I am self-motivated, quick learner with high integrity and creative,
+           I have experience in managing relationship with my clients by developing trust and proposing
+            solutions that meet their objectives. I have over than seven years’ experience in diverse sales 
+            environments including retail, advertising, marketing plans and telecommunications.
+             I am also a team player who demonstrated ability to
+              lead and motivate teams into achieving common goals. </p>
         
 </div>
     </>

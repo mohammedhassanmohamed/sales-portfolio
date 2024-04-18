@@ -1,5 +1,4 @@
 import React from "react";
-// import Imagedynamic from "../Imagedynamic";
 import "./Project.css";
 import projectfoto from "../assets/ma-pro.PNG";
 import foto from "../assets/2396-6.jpg";
@@ -26,8 +25,8 @@ const Project = () => {
 
  
 
-      {/* <div className="all-padge"> */}
-      {/* <img className="foto" src={foto} alt="project4.jpg" /> */}
+   
+      
       
 <div className="image-bg">
 <img id="mainimg"  src={foto} alt= "intro"/>
@@ -36,29 +35,7 @@ const Project = () => {
 </div>
 
 <Slider/>
- {/* <MDBContainer className="my-5 d-flex justify-content-center">
-      <img
-        src={rashdeen}
-        className="rounded-3"
-        style={{ width: "300px",height:"30vh",marginTop:"130px",marginLeft:"30px" }}
-        alt="Avatar"
-      />
-     
-    </MDBContainer>  */}
-   
-       
-        {/* <div id="image-project">
-          <a href="https://productions-project-ecommerce.vercel.app/" rel="noreferrer"  target="_blank">
-            <img className="projectfoto" src={foto} alt="projectfoto"  />
-      
-          </a> 
-         </div> */}
-      
-{/* <div className="all-svg"> */}
 
-
-
-    {/* </div>  */}
     </>
   );
 };

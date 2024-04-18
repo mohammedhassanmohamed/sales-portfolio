@@ -2,25 +2,14 @@ import "./Imagedynamic.css";
 import React from "react"
 import foto from "./assets/2396-6.jpg";
 export default function Imagedynamic(props) {
-  // let text =props;
-  // let name =props;
-  // let profile =props;
-  // let email =props;
-  // let phone =props;
-  // let heading =props;
+
   return (
     <>
       <div className="all-padge">
         <img className="foto" src={foto} alt="project4.jpg" />
         <div className="empty-background"></div>
         <div className="p-h1-twobtn">
-          {/* <h1 className="myh1">{heading}</h1>
-        
-          <p className="para"> {text}</p>
-          <p className="para"> {name}</p>
-          <p className="para"> {profile}</p>
-          <p className="para"> {email}</p>
-          <p className="para"> {phone}</p> */}
+     
 
 
 <div className="all-svg">

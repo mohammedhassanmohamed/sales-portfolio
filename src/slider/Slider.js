@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion'
-// import img from '../../assets/Capture1.PNG'
 import './Slider.css'
 import { Data } from '../Data';
 import { useEffect, useRef, useState } from 'react';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 const Slider = () => {
     const [m, setM] = useState(0)
@@ -18,7 +16,6 @@ const Slider = () => {
                     {
                         Data.map((data,index) => {
                             return (
-                                // <motion.div drag='x' dragConstraints={{ right: 0 }} className='motion' >
                                 <div key={index} className='single-card' >
                                     <div className='cont'>
                                     <h3>{data.position}</h3>
@@ -28,7 +25,6 @@ const Slider = () => {
                                </div>                           
                                  <img src={data.img} width={'400px'} height={'200px'} />
                                 </div>
-                                // </motion.div>
                             )
                         })
                     }
