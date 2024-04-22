@@ -13,8 +13,8 @@ export default function Mainrespo() {
 <div className="empty-background"></div>
     
 <div className="all-text">
-          <h1 className="myh1">Main responsibilities</h1>
-         <p className="para"> - Acquire a thorough understanding of key customer needs and requirements <br></br>
+          <h1 id="myh1">Main responsibilities</h1>
+         <p id="parag"> - Acquire a thorough understanding of key customer needs and requirements <br></br>
 - Develop trust relationships with a portfolio of major clients to ensure they do not turn to competition <br></br>
 - Expand the relationships with existing customers by continuously proposing solutions that meet their objectives <br></br>
 - Resolve any issues and problems faced by customers and deal with complaints to maintain trust <br></br>

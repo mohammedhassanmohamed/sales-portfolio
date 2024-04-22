@@ -1,5 +1,4 @@
-
-#topphoto{
+#topphoto {
     height: 70vh;
     width: 30%;
     margin: auto;
@@ -7,11 +6,11 @@
 
 
 .image-bg {
-  
+
     position: relative;
 }
 
-.empty-background {
+#empty-background {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.705);
     width: 100%;
@@ -19,24 +18,24 @@
 
 }
 
- @media (max-width:500px) {
-    .projectfoto{
-        width: 200px;
-        height: 23vh;
-        margin-left: 10px;
-        margin-top: -70px;
+@media (max-width:800px) {
+
+    #mainimg {
+
+        height: 200vh;
     }
 
+    #empty-background {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.705);
+        width: 130%;
+        height: 200vh;
 
- }
-
- @media (min-width:500px) and (max-width:1200px) {
-    .projectfoto{
-        width: 200px;
-        height: 23vh;
-        margin-left: 0px;
-        margin-top: -60px;
     }
+}
+
+@media (min-width:500px) and (max-width:1200px) {
 
 
- }
+
+}

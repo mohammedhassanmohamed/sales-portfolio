@@ -46,9 +46,10 @@ header .portofolio {
 
 @media (max-width: 920px) {
   .bi-distribute-vertical {
-
+position: relative;
     display: initial;
-    margin-left: 200px;
+   left: -100px;
+    background-color: brown;
   }
 
   .nav-menu {
@@ -57,6 +58,7 @@ header .portofolio {
     flex-direction: column;
     left: -160px;
     top: 70px;
+    height: 40vh;
 
   }
 

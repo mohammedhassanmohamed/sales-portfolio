@@ -6,17 +6,20 @@
     margin-left: 1000px;
 }
 
-div .para{
-width: 100%;
-   margin-left: 70px;
+div #parag {
+    width: 80%;
+    margin-left: 70px;
     font-weight: 200;
     text-shadow: 5px 5px 10px #00FF00;
+    margin-left: 130px;
 }
-.myh1{
-margin-left: 60px;
-text-shadow: 5px 5px 10px #00FF00;
+
+.myh1 {
+    margin-left: 60px;
+    text-shadow: 5px 5px 10px #00FF00;
 }
-.all-text{
+
+.all-text {
     width: 100%;
     /* text-align: center; */
     position: relative;
@@ -29,32 +32,48 @@ text-shadow: 5px 5px 10px #00FF00;
 
 @media (max-width:800px) {
     .personal-foto {
-        position: relative;
+        /* position: relative;
         width: 200px;
         height: 200px;
         border-radius: 50% 50%;
-        top: -130px;
-        left: -300px;
+        top: -25px;
+        right: 900px; */
+        display: none;
     }
-    .all-text{
-        width: 100%;
+ .all-text #parag {
+        top: 50px;
+        width: 60%;
+        /* margin-left: 70px; */
+        font-weight: 200;
+        text-shadow: 5px 5px 10px #00FF00;
+        font-size: x-large;
+    }
+    #myh1{
+      margin-left:130px;
+        margin-top: 170px;
+    }
+    .all-text {
+
+        width:100%;
         /* text-align: center; */
-        /* position: relative; */
+        position: relative;
         font-size: 20px;
         /* margin: auto; */
         top: 100px;
         font-weight: 300px;
-    }
-    .all-padge{
-
-width: 200%;
+       left: -100px;
 
     }
-    
+
+    .all-padge {
+
+        width: 200%;
+
+    }
+
 }
 
-
-@media (min-width: 800px) and (max-width: 1024px) { 
+ @media (min-width: 800px) and (max-width: 1024px) {
     .personal-foto {
         position: relative;
         width: 200px;
@@ -62,9 +81,32 @@ width: 200%;
         border-radius: 50% 50%;
         top: -400px;
         left: -300px;
+    } 
+    .all-text {
+        width: 60%;
+        /* text-align: center; */
+        /* position: relative; */
+        font-size: 20px;
+        /* margin: auto; */
+        top: 100px;
+        font-weight: 300px;
+        margin-left: -90px;
+
+    }
+    .all-text #myh1{
+        margin-left: 70px;
+        top: 100px;
+    }
+
+    .all-text #parag {
+        top: 50px;
+        margin-left: 70px;
+        width: 80%;
+        /* margin-left: 70px; */
+        font-weight: 200;
+        text-shadow: 5px 5px 10px #00FF00;
+        font-size: x-large;
     }
 
 
-
 }
-

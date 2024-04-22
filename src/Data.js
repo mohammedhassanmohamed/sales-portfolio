@@ -14,7 +14,7 @@ export  const Data =[
     {title: 'From. JAN 2020 –  2022',position:'pre-seller- supervisor,saudi arabia' ,
     summary:"Make deals, sales and collections with companies", img:img3},
 
-    {title: 'From. JAN 2016 –  2018 ',
+    {title: 'From. JAN 2018 –  2020 ',
     position:'retail rebresntative',
     summary:"Make deals, sales and collections with super market",
      img:img4},

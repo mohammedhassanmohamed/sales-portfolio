@@ -17,9 +17,9 @@ import "./Summary.css";
 
 </div>
 <div className="all-text">
-          <h1 className="myh1">summary</h1>
+          <h1 id="myh1">summary</h1>
         
-          <p className="para"> I am self-motivated, quick learner with high integrity and creative,
+          <p id="parag"> I am self-motivated, quick learner with high integrity and creative,
            I have experience in managing relationship with my clients by developing trust and proposing
             solutions that meet their objectives. I have over than seven years’ experience in diverse sales 
             environments including retail, advertising, marketing plans and telecommunications.
