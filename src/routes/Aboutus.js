@@ -1,7 +1,7 @@
 import React from "react";
-import Imagedynamic from "../Imagedynamic";
+// import Imagedynamic from "../Imagedynamic";
 import moahmmedfoto from"../assets/received_457698578514765.jpeg";
-import foto from "../assets/2396-6.jpg";
+// import foto from "../assets/2396-6.jpg";
 import "./Aboutus.css";
 const Aboutus = () => {
 
@@ -28,7 +28,7 @@ const Aboutus = () => {
 
         
         <div className="my-personal-foto-div"> 
-          <img className="personal-foto" width="200px" src={moahmmedfoto} alt="my-personal-photo"/>
+          <img className="personal-foto" width="200px" src={moahmmedfoto} alt="my-personal"/>
            </div>
       
       </div>

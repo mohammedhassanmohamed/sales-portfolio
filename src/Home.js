@@ -1,7 +1,7 @@
 import React from "react"
 import img1 from "./assets/intro-bg.jpg"
 import "./Home.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ReactTyped } from "react-typed";
 
 export default function Home() {

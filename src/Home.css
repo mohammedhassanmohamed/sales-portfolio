@@ -68,21 +68,73 @@ img {
     background-color: yellow;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
+    .p-h1-twobtn .para{
+        /* width: 50%; */
+        /* text-align: center; */
+        position: relative;
+        font-size: 14px;
+        
+        /* margin: auto; */
+     
+        /* left: -100px; */
+
+    }
+    .p-h1-twobtn .myh1{
+        /* width: 50%; */
+        /* text-align: center; */
+        position: relative;
+        font-size: 20px;
+        /* margin: auto; */
+     
+        /* left: -100px; */
+
+    }
 
     .p-h1-twobtn {
-        width: 60%;
+        /* width: 60%; */
         text-align: center;
         position: relative;
-        font-size: 30px;
-        margin: auto;
+        font-size: 10px;
+        /* margin: auto; */
         top: 250px;
-        left: -50px;
+        left: -60px;
     
     }
     .two-button {
         padding: 10px 20px;
+        width: 50%;
+        left: 20px;
+        position: relative;
       
+    }
+    .btn-project {
+        padding: 5px 4px;
+        font-size: 16px;
+        color: black;
+        background-color: yellow;
+        border: 1px solid white;
+        font-weight: 800;
+        margin: 15px;
+    }
+    .btn-project:hover {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.486);
+    
+    }
+
+    .btn-contact {
+        padding: 5px 10px;
+        font-size: 16px;
+        color: white;
+        font-weight: 800;
+        border: 1px solid white;
+    }
+    
+    .btn-contact:hover {
+    
+        color: black;
+        background-color: yellow;
     }
     
     img {
