@@ -7,7 +7,6 @@ import Mainrespo from "./routes/Mainrespo";
 import Home from "./Home";
 import Footer from './Footer';
 import React from "react"
-// import Contact from './routes/Contact';
 function App() {
   return (
     <div>

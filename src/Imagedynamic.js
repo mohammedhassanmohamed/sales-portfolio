@@ -1,7 +1,7 @@
 import "./Imagedynamic.css";
 import React from "react"
 import foto from "./assets/2396-6.jpg";
-export default function Imagedynamic(props) {
+export default function Imagedynamic() {
 
   return (
     <>
