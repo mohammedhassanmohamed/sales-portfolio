@@ -16,10 +16,6 @@
     "react-typed": "^2.0.12",
     "web-vitals": "^2.1.4"
   },
-
-
-
-
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -47,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@wdio/cli": "^8.36.1",
     "@wdio/local-runner": "^8.36.1",
     "@wdio/mocha-framework": "^8.36.1",
