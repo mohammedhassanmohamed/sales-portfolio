@@ -3,7 +3,7 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <>
-      <footer>
+      <div id="myfooter">
         <div id="three-icons" className="container m-auto ">
           <div id="house">
             <svg
@@ -96,7 +96,7 @@ export default function Footer() {
 </a>
 
         </div>
-      </footer>
+      </div>
     </>
   );
 }

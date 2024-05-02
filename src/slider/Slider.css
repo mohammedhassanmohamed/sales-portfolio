@@ -1,5 +1,4 @@
 .main-sec {
-    /* background-color: #2b4a63; */
     margin:  auto;
     padding: 150px 0;
     height: 800px;
@@ -41,7 +40,6 @@
 .single-card .cont {
     display: flex;
     justify-content: center;
-    /* align-items: end; */
     gap: 15px;
     position: absolute;
     height: 100%;
@@ -49,7 +47,6 @@
    
     color: white;
     cursor: pointer;
-    /* font-size: 30px; */
     transition: 0.4s;
    
     text-shadow: 5px 5px 10px red;

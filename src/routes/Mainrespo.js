@@ -10,7 +10,7 @@ export default function Mainrespo() {
         />
         <div className="empty-background"></div>
 
-        <div className="all-text">
+        <div id="all-text">
           <h1 id="myh1">Main responsibilities</h1>
           <p id="parag">
             {" "}

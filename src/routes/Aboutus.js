@@ -7,10 +7,10 @@ const Aboutus = () => {
 
   return (
     <>
-      <div className="all-padge">
+      <div id="all-padge">
       <img className="foto" src="https://static6.depositphotos.com/1035653/579/i/450/depositphotos_5791965-stock-photo-old-room-background.jpg" alt="project4.jpg" />
       <div className="empty-background"></div>
-        <div className="all-text">
+        <div id="all-text">
           <h1 id="myh1">ABOUT</h1>
         
           <p id="parag"> Im afriendly sales representative, Pre Seller  </p>

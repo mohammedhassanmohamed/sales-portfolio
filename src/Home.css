@@ -70,33 +70,27 @@ img {
 
 @media (max-width: 800px) {
     .p-h1-twobtn .para{
-        /* width: 50%; */
-        /* text-align: center; */
+       
         position: relative;
         font-size: 14px;
         
-        /* margin: auto; */
      
-        /* left: -100px; */
 
     }
     .p-h1-twobtn .myh1{
-        /* width: 50%; */
-        /* text-align: center; */
+       
         position: relative;
         font-size: 20px;
-        /* margin: auto; */
-     
-        /* left: -100px; */
+    
 
     }
 
     .p-h1-twobtn {
-        /* width: 60%; */
+ 
         text-align: center;
         position: relative;
         font-size: 10px;
-        /* margin: auto; */
+     
         top: 250px;
         left: -60px;
     
@@ -139,8 +133,8 @@ img {
     
     img {
         position: absolute;
-        width: 120%;
-        height: 100vh;
+        width: 100%;
+        height: 180vh;
         background-size: cover;
         background-position: cover;
         object-fit: cover;
@@ -149,7 +143,7 @@ img {
         position: absolute;
         background-color: rgba(0, 0, 0, 0.705);
         width: 120%;
-        height: 100vh;
+        height: 180vh;
     
     }
 }
