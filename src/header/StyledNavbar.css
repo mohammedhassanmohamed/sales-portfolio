@@ -14,6 +14,15 @@
 header .portofolio {
 
   margin-left: 100px;
+  /* text-shadow: 5px 5px 10px rgb(238, 255, 0); */
+
+  transition-delay: 3s; 
+  transition-timing-function: ease-in-out;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%)20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s infinite linear;
+
 }
 
 .header-bg {
@@ -28,6 +37,7 @@ header .portofolio {
 
 .nav-menu li {
   padding: 0 1rem;
+  
 }
 
 .header ul {
@@ -92,6 +102,12 @@ position: relative;
   header .portofolio {
 
     margin-left: -10px;
+    transition-delay: 3s; 
+    transition-timing-function: ease-in-out;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%)20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 6s infinite linear;
   }
 }
 

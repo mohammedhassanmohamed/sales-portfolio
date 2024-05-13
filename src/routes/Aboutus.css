@@ -10,13 +10,29 @@ div #parag {
     width: 80%;
     margin-left: 70px;
     font-weight: 200;
-    text-shadow: 5px 5px 10px #00FF00;
+    /* text-shadow: 5px 5px 10px #00FF00; */
     margin-left: 130px;
+    transition-delay: 5s; 
+    transition-timing-function: ease-in-out;
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 6s infinite linear;
 }
-
+@keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 850px;
+    }
+  }
 #myh1 {
     margin-left: 130px;
-    text-shadow: 5px 5px 10px #00FF00;
+    /* text-shadow: 5px 5px 10px #00FF00; */
 }
 
 #all-text {
@@ -40,7 +56,7 @@ div #parag {
         margin-top: 10px;
     
         font-weight: 200px;
-        text-shadow: 5px 5px 10px #00FF00;
+        /* text-shadow: 5px 5px 10px #00FF00; */
         font-size: x-large;
     }
 
@@ -49,7 +65,15 @@ div #parag {
         margin-top: 10px;
     }
 
-
+    div #parag {
+   
+        transition-delay: 5s; 
+        transition-timing-function: ease-in-out;
+        background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shine 6s infinite linear;
+    }
 
     #all-padge {
 width: 100%;
@@ -97,7 +121,7 @@ height: 140vh;
         width: 80%;
     
         font-weight: 200;
-        text-shadow: 5px 5px 10px #00FF00;
+        /* text-shadow: 5px 5px 10px #00FF00; */
         font-size: x-large;
     }
 

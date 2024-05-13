@@ -7,6 +7,7 @@ import Mainrespo from "./routes/Mainrespo";
 import Home from "./Home";
 import Footer from './Footer';
 import React from "react"
+import Contact from './routes/Contact';
 function App() {
   return (
     <div>
@@ -18,7 +19,7 @@ function App() {
         <Route path="/Aboutus" element={<Aboutus />} />
         <Route path="/Summary" element={<Summary />} /> 
         <Route path="/Project" element={<Project />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/contact" element={<Contact />} />
         <Route path="/Mainresponsibilitie" element={<Mainrespo />} />
       </Routes>
       <Footer/>

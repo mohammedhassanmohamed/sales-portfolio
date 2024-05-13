@@ -23,7 +23,7 @@ const Slider = () => {
                                     <h3>{data.title}</h3>
                                     <h3>{data.summary}</h3>
                                    </div>                
-                                 <img src={data.img} width={'400px'} height={'200px'} />
+                                 <img alt='company' src={data.imoge} width={'400px'} height={'200px'} />
                                 </div>
                                  </a>    
                             )

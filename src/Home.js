@@ -41,7 +41,7 @@ loop
 </h1>
 
 <div className="two-button">
-<Link className="btn-project" to="/Project">companies</Link> 
+<Link className="btn-project" to="/Project">Companies</Link> 
 <Link className="btn-contact" to="/contact">Contact</Link> 
 </div>
 </div>
